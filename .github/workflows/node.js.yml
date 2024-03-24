@@ -33,8 +33,8 @@ jobs:
     - name: Get Status
       run: npm start
       env:
-          CPOLAR_EMAIL: ${{192819925@qq.com}}
-          CPOLAR_PASSWORD: ${{fyz2023210602008}}
+          CPOLAR_EMAIL: 192819925@qq.com
+          CPOLAR_PASSWORD: fyz2023210602008
 
     - name: Send mail ✉️
       uses: dawidd6/action-send-mail@v2
@@ -43,8 +43,8 @@ jobs:
         server_address: smtp.163.com
         # smtp 服务器端口
         server_port: 465
-        username: ${{fyz20180908@163.com}}
-        password: ${{LOPNYHGGJIVTWPFM}}
+        username: fyz20180908@163.com
+        password: LOPNYHGGJIVTWPFM
         subject: cpolar今日状态
         body: file://index.html
         to: fyz20180908@163.com
