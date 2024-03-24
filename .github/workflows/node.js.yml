@@ -33,8 +33,8 @@ jobs:
     - name: Get Status
       run: npm start
       env:
-          CPOLAR_EMAIL: ${{ 192819925@qq.com }}
-          CPOLAR_PASSWORD: ${{ fyz2023210602008 }}
+          CPOLAR_EMAIL: ${{192819925@qq.com}}
+          CPOLAR_PASSWORD: ${{fyz2023210602008}}
 
     - name: Send mail ✉️
       uses: dawidd6/action-send-mail@v2
