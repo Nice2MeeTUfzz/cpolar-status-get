@@ -4,6 +4,7 @@
   "description": "用于cpolar内网穿透后定时获取状态通过邮件发送自己",
   "main": "index.js",
   "scripts": {
+    "restart":"npm run build:dll",
     "start": "node ./index.js"
   },
   "keywords": [],
